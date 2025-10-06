@@ -23,11 +23,23 @@
 
 ---
 
-## ⚙️ Instalación
+## ⚙️ Instalación y Ejecución
 
 
 ```bash
+# Clonar el repositorio
 git clone https://github.com/Henry7412/mandu-division-backend.git
+
+# Ingresar al directorio
 cd mandu-division-backend
+
+# Instalar dependencias
 pnpm install
+
+# Iniciar el servidor en modo desarrollo
+pnpm start:dev
+
+# O iniciar en modo producción
+pnpm start:prod
+
 
